@@ -1,3 +1,7 @@
 var Stack = function() {
-	//your code is here
+	var array =[];
+
+	//.add and .remove
+
+return array;
 };
