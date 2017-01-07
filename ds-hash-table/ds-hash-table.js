@@ -5,13 +5,14 @@ var makeHashTable = function() {
   return {
     _storage: [],
     retrieve: function(key) {
-      //your code is here
+     _storage[key]
     },
 
     insert: function(key, value) {
-      //your code is here
-  };
+      push._storage(value)
+  }
 };
+}
 
 // This is a "hashing function". You don't need to worry about it, just use it to turn any key into a pseudo-random key
 var hashFn = function(str, max) {
@@ -22,4 +23,4 @@ var hashFn = function(str, max) {
     hash = (hash & hash) % max;
   }
   return hash;
-};
+}
